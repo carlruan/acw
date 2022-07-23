@@ -1,5 +1,3 @@
-package java_code.basic.ch3;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -38,7 +36,7 @@ public class ACW846 {
         n = scan.nextInt();
         idx = 0;
         Arrays.fill(h, -1);
-        for(int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             int a = scan.nextInt(), b = scan.nextInt();
             add(a, b);
             add(b, a);

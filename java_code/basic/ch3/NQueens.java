@@ -1,5 +1,3 @@
-package java_code.basic.ch3;
-
 import java.util.Scanner;
 
 public class NQueens {
