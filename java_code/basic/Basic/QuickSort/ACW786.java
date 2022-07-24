@@ -1,9 +1,7 @@
-package java_code.basic.ch1;
-
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ksmallest {
+public class ACW786 {
 
     private final static int N = (int) 1e5;
     private static int[] arr = new int[N];

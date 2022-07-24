@@ -1,8 +1,6 @@
-package java_code.basic.ch1;
-
 import java.util.Scanner;
 
-public class CheckSubstring {
+public class ACW2816 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

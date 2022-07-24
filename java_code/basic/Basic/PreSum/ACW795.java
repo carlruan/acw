@@ -1,8 +1,6 @@
-package java_code.basic.ch1;
-
 import java.util.Scanner;
 
-public class Prefix {
+public class ACW795 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

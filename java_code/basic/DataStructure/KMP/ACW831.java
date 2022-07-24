@@ -1,8 +1,6 @@
-package java_code.basic.ch2;
-
 import java.io.*;
 
-public class Kmp {
+public class ACW831 {
 
     public static void main(String[] args) throws NumberFormatException, IOException {
 

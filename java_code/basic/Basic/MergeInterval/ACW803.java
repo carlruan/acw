@@ -1,11 +1,9 @@
-package java_code.basic.ch1;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class MergeInterval {
+public class ACW803 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

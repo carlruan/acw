@@ -1,8 +1,6 @@
-package java_code.basic.ch1;
-
 import java.util.*;
 
-public class DIscret {
+public class ACW802 {
 
     public static void main(String[] args) {
         List<int[]> query = new ArrayList<>();

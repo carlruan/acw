@@ -1,9 +1,7 @@
-package java_code.basic.ch2;
-
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Math {
+public class ACW3302 {
 
     private static Stack<Integer> num = new Stack<>();
     private static Stack<Character> op = new Stack<>();

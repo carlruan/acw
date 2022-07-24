@@ -1,21 +1,19 @@
-package java_code.basic.ch1;
-
 import java.util.Scanner;
 
-public class MergeSort {
+public class ACW788 {
 
     private static int N = (int) 1e5, n;
     private static int[] arr = new int[N];
     private static int[] aux = new int[N];
+    private static long res = 0;
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        n = scanner.nextInt();
+        Scanner scan = new Scanner(System.in);
+        n = scan.nextInt();
         for (int i = 0; i < n; i++)
-            arr[i] = scanner.nextInt();
+            arr[i] = scan.nextInt();
         mergeSort(0, n - 1);
-        for (int i = 0; i < n; i++)
-            System.out.print(arr[i] + " ");
+        System.out.println(res);
     }
 
     private static void mergeSort(int l, int r) {
@@ -24,12 +22,12 @@ public class MergeSort {
         int m = l + r >> 1;
         mergeSort(l, m);
         mergeSort(m + 1, r);
-        // for(int i = l; i <= r; i++) aux[i] = arr[i];
         int i = l, j = m + 1, p = 0;
         while (i <= m && j <= r) {
             if (arr[i] <= arr[j]) {
                 aux[p++] = arr[i++];
             } else {
+                res += m - i + 1;
                 aux[p++] = arr[j++];
             }
         }

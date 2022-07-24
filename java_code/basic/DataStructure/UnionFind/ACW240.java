@@ -1,8 +1,6 @@
-package java_code.basic.ch2;
-
 import java.util.Scanner;
 
-public class FoodChain {
+public class ACW240 {
 
     private static int[] p = new int[50010];
     private static int[] d = new int[50010];

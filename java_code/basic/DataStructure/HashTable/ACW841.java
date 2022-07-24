@@ -1,8 +1,6 @@
-package java_code.basic.ch2;
-
 import java.util.Scanner;
 
-public class RollingHash {
+public class ACW841 {
 
     private static int mod = 13131;
     private static int N = (int) 1e5 + 10;

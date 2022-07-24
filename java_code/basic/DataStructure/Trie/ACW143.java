@@ -1,8 +1,6 @@
-package java_code.basic.ch2;
-
 import java.util.Scanner;
 
-public class MaxXor {
+public class ACW143 {
 
     private static class Node {
         Node[] child;

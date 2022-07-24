@@ -1,8 +1,6 @@
-package java_code.basic.ch2;
-
 import java.util.Scanner;
 
-public class SlideWindow {
+public class ACW154 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

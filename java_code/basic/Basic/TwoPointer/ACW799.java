@@ -1,10 +1,8 @@
-package java_code.basic.ch1;
-
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class LongestUniqueSub {
+public class ACW799 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

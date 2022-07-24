@@ -1,8 +1,8 @@
-package java_code.basic.ch1;
+package PreSum;
 
 import java.util.Scanner;
 
-public class MatrixPrefix {
+public class AWC796 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int m = scan.nextInt(), n = scan.nextInt(), q = scan.nextInt();

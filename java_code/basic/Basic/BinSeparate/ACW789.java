@@ -1,8 +1,6 @@
-package java_code.basic.ch1;
-
 import java.util.Scanner;
 
-public class DigitRange {
+public class ACW789 {
 
     private static int[] arr = new int[(int) 1e6 + 10];
     private static int[] query = new int[10010];

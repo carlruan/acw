@@ -1,8 +1,6 @@
-package java_code.basic.ch1;
-
 import java.util.Scanner;
 
-public class MatrixDifference {
+public class ACW798 {
 
     private static void insert(int[][] s, int x1, int y1, int x2, int y2, int c) {
         s[x1][y1] += c;
