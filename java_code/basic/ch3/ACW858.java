@@ -25,6 +25,7 @@ public class ACW858 {
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
             e[a][b] = e[b][a] = Math.min(e[a][b], c);
         }
+        scan.close();
         int res = 0;
         for (int i = 0; i < n; i++) {
             int t = -1;

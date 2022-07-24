@@ -26,6 +26,7 @@ public class ACW847 {
             int a = scan.nextInt(), b = scan.nextInt();
             add(a, b);
         }
+        scan.close();
         st[1] = true;
         Queue<Integer> q = new LinkedList<>();
         q.add(1);

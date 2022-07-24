@@ -42,6 +42,7 @@ public class ACW859 {
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
             e[i] = new Edge(a, b, c);
         }
+        scan.close();
         Arrays.sort(e, 0, m);
         int cnt = 0;
         int res = 0;

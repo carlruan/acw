@@ -57,6 +57,7 @@ public class NQueens {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
+        scan.close();
         row = new boolean[n];
         col = new boolean[n];
         dig = new boolean[2 * n];

@@ -41,6 +41,7 @@ public class ACW846 {
             add(a, b);
             add(b, a);
         }
+        scan.close();
         dfs(1);
         System.out.println(ans);
         return;

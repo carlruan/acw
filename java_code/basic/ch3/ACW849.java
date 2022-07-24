@@ -23,6 +23,7 @@ public class ACW849 {
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
             e[a][b] = Math.min(e[a][b], c);
         }
+        scan.close();
         dist[1] = 0;
         for (int i = 0; i < n; i++) {
             int t = -1;

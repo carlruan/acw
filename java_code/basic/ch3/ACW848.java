@@ -5,7 +5,7 @@ public class ACW848 {
     static int N = M;
     static int m, n;
     static int[] in = new int[N];
-    static List<Integer>[] out = new ArrayList[N];
+    static List<Integer>[] out = new List[N];
 
     public static void run() {
         Scanner scan = new Scanner(System.in);
@@ -18,6 +18,7 @@ public class ACW848 {
             in[b]++;
             out[a].add(b);
         }
+        scan.close();
         Queue<Integer> q = new LinkedList<>();
         for (int i = 1; i <= n; i++)
             if (in[i] == 0)

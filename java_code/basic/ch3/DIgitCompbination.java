@@ -27,6 +27,6 @@ public class DIgitCompbination {
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
         dfs(new ArrayList<>());
-
+        scan.close();
     }
 }

@@ -13,6 +13,7 @@ public class puzzle {
                 matrix[i][j] = scan.nextInt();
             }
         }
+        scan.close();
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[] { 1, 1 });
         int res = 0;

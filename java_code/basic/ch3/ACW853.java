@@ -28,6 +28,7 @@ public class ACW853 {
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
             e[i] = new Edge(a, b, c);
         }
+        scan.close();
         d[1] = 0;
         for (int i = 0; i < k; i++) {
             dd = d.clone();

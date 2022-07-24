@@ -28,7 +28,7 @@ public class ACW852 {
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
             add(a, b, c);
         }
-
+        scan.close();
         Queue<Integer> q = new LinkedList<>();
         for (int i = 1; i <= n; i++) {
             q.add(i);

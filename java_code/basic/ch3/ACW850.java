@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
@@ -17,7 +16,6 @@ public class ACW850 {
 
         @Override
         public int compareTo(Node o) {
-            // TODO Auto-generated method stub
             return Integer.compare(this.v, o.v);
         }
 
@@ -43,6 +41,7 @@ public class ACW850 {
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
             add(a, b, c);
         }
+        scan.close();
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[1] = 0;
         PriorityQueue<Node> pq = new PriorityQueue<>();
